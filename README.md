@@ -5,8 +5,8 @@ You're a developer.  You use lots of tools.  Some projects use grunt, some use g
 
 Let's keep this simple.
 
-1. Install this.  `npm install clunify`
-2. Instead of using `gulp serve`, `grunt serve`, `ionic serve`, etc. just use `clu serve` (or `clu whatever`).
+1. Install this.  `npm install -g clunify`
+2. Instead of using `gulp serve`, `grunt serve`, `ionic serve`, etc. in your projects, just use `clu serve` (or `clu whatever`).
 3. Recover sanity.
 4. Be happier.
 
