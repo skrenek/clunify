@@ -45,6 +45,15 @@ if (toolName) {
   proc.stderr.on('data', function (data) {
     process.stdout.write(data.toString());
   });
+  proc.on('exit', function(code, signal) {
+    process.exit(0);
+  });
+
+  function passthroughSignal() {
+    proc.kill('SIGINT');
+  }
+
+  process.on('SIGINT', passthroughSignal);
 } else {
   console.log('No tool match found.');
 }
