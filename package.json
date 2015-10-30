@@ -1,6 +1,6 @@
 {
   "name": "clunify",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Unify all the command line tools out there into one cli",
   "main": "index.js",
   "repository": {
